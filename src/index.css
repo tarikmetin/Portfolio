@@ -328,6 +328,7 @@ p {
   padding: 0.5rem 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   gap: 1rem;
   background-color: var(--clr-lightest);
   border-radius: 12px;

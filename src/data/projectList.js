@@ -1,5 +1,6 @@
 import nutricount from "../images/nutricount.jpg";
 import portfolio from "../images/portfolio.jpg";
+import scheduler from "../images/scheduler.jpg";
 
 export const projectList = [
   {
@@ -23,5 +24,19 @@ export const projectList = [
 
     img: `${portfolio}`,
     libs: ["React", "Framer Motion"],
+  },
+  {
+    projectName: "Scheduler",
+    description:
+      "This one is my first full stack application I have done completely from scratch. I used MERN stack to build it. Simply put, it is a calendar application where you can register your upcoming appointments. It also tracks your customers with their appointment history. It is mainly built for people who need to register upcoming appointments and want to keep track of their customers' past appointments. ",
+    additional:
+      "Main challanges for this application in frontend was to use FullCalendar to build the calendar section. I don't know why, but I had hard time figuring out their doc files. As you may know forms in React give hard times, so I used React Hook Form and it made whole process trivial. After building the whole app I decided to do use Tanstack/React Query for the data fetching from the API. I wished that I started to build the app using this library in that point, because I had some hard time changing the fetch code from that point, but I am glad I did because data caching option blowed my mind helping me to avoid unnecessary client side get requests.",
+    verdict:
+      "I feel like the app nowhere nearby to have real commercial value, but I am so happy I pushed myself almost one month nonstop to make it work as it is working currently. I learnt so much from this project that I finally understand why people saying best thing to improve yourself is to build a full stack app. For more detail please check the github page.",
+
+    img: `${scheduler}`,
+    libs: ["React", "FullCalendar", "Tanstack", "React Hook Form"],
+    urlDemo: "https://scheduler-client.onrender.com/",
+    urlGithub: "https://github.com/tarikmetin/scheduler-client",
   },
 ];
